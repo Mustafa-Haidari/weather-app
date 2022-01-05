@@ -1,0 +1,112 @@
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+
+:root {
+    --color-1: #d62828;
+    --color-2: #003049;
+    --color-3: #f77f00;
+    --color-4: #fcbf49;
+    --color-5: #eae2b7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 3rem auto;
+    max-width: 800px;
+}
+
+h1, h3, p, span {
+    font-family: inherit;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.form input {
+    width: 100%;
+    margin-right: 1rem;
+    padding: .7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px dashed #ddc;
+    border-radius: 0.2rem;
+    font-family: inherit;
+}
+.form button {
+    width: 30%;
+    font-weight: bold;
+    background-color:var(--color-3);
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.4rem;
+}
+.top-wrapper {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+.current-temp{
+    font-size: 2rem;
+    background-color: var(--color-1);
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.result-name {
+    font-size: 2rem;
+}
+.wrap {
+    display: flex;
+    column-gap: 1rem;
+}
+.wrap > a > i {
+    color: green;
+}
+.coord {
+    display: flex;
+    font-size: 1rem;
+    column-gap: 2rem;
+}
+.temp {
+    display: grid;
+    justify-content: space-between;
+    margin: 3rem 0;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.temp > p {
+    background-color: var(--color-2);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    color: white;
+}
+.temp > p > span {
+    font-size: 1.4rem
+}
+
+.sun {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.sun > div {
+
+}

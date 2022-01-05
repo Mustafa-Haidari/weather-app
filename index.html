@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+<h1><i class="uil uil-cloud-moon"></i> <span>weather app</span></h1>
+<p>search a city to get weather information</p>
+        <form class="form">
+            <input type="text" placeholder="Enter a city...">
+            <button type="submit">Search</button>
+        </form>
+
+
+        <div class="result">
+
+            <div class="top-wrapper">
+                <div class="result-name">
+                    <div class="wrap">
+                        <a href="#" target="_blank"><i class="uil uil-map-marker hide"></i></a>
+                        <h3 class="place-name"></h3>
+                        <img class="graphic hide" src="#" width="65px" height="65px" alt="Icon">
+                    </div>
+                    
+                    <div class="coord">
+                        
+                        <span class="lon"></span>
+                        <span class="lat"></span>
+                        
+                    </div>
+                </div>
+                <div>
+                    <span class="hide">Current Temperature</span>
+                    <p class="current-temp hide"></p>
+                </div>
+            </div>
+
+
+
+
+            <div class="temp">
+
+                <p class="hide">feels like<span class="feels-like hide"></span></p>
+                <p class="hide">humidity<span class="humidity hide"></span></p>
+                <p class="hide">max temp<span class="temp-max hide"></span></p>
+                <p class="hide">min temp<span class="temp-min hide"></span></p>
+                <p class="hide">wind speed<span class="wind-speed hide"></span></p>
+            </div>
+
+            <div class="sun">
+                <div class="sunrise"><i class="uil uil-sun hide">Sunrise</i>
+                    <p></p>
+                </div>
+                <div class="sunset"><i class="uil uil-sunset hide">Sunset</i>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
