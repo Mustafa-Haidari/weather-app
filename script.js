@@ -27,7 +27,7 @@ const sunset = document.querySelector('.sunset > p')
 
 
 const api = {
-    key: '9a14131d21314caaf8e9208f49b174d4',
+    key: process.evn.KEY,
     base_url: 'https://api.openweathermap.org/data/2.5/'
 }
 
